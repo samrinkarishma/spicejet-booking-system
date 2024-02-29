@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="listeners.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.TC_01_Homepagetest"/>
+      <class name="testcases.TC_03_Signuppagetest"/>
+      <class name="testcases.TC_07Bookingflight"/>
+      <class name="testcases.TC_02_Loginpagetest"/>
+      <class name="testcases.TC_04_Loginwithmobnumber"/>
+      <class name="testcases.TC_06_checkflights"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
